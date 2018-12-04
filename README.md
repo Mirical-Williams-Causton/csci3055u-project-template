@@ -18,10 +18,6 @@
 ```swift
 var message = "Hello World!"
 ```
-*Declaring Constants*
-```swift
-let maxGroupSize = 4
-```
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
