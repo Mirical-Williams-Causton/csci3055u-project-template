@@ -14,11 +14,10 @@
 
 > _give some code snippet of the language_
 
-*Declaring Variables*
-
+*Variables and Constants*
 ```swift
-var message = "Hello"
-var message : String = "Hello"
+var message = "Hello World!" // Variable
+let maxGroupSize = 4 // Constant
 ```
 
 ## About the tools
