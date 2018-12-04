@@ -17,6 +17,7 @@
 *Declaring Variables*
 ```swift
 var message = "Hello World!"
+var maximumScore : Int
 ```
 *Declaring Constants*
 ```swift
