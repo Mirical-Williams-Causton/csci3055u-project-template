@@ -14,12 +14,11 @@
 
 > _give some code snippet of the language_
 
-*Let form*
+*Declaring Variables*
 
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+```swift
+var message = "Hello"
+var message : String = "Hello"
 ```
 
 ## About the tools
