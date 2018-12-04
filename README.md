@@ -18,6 +18,10 @@
 ```swift
 var message = "Hello World!"
 ```
+*Declaring Constants*
+```swift
+let message = "Hello World!"
+```
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
