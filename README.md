@@ -51,7 +51,7 @@ for n in 1...5 {
 }
 // Prints "12345"
 ```
-*String*
+*Variable Using String Data Type*
 ```swift
 let greeting = "Welcome to Swift 4!"
 ```
