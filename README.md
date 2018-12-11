@@ -33,9 +33,38 @@ for i in numbers {
 > _Describe the compiler or interpreter needed_.
 
 ## About the standard library
+The Swift standard library defines a base layer of functionality for writing Swift programs, including:
+- Fundamental data types such as _Int_, _Double_, and _String_
+- Common data structures such as _Array_, _Dictionary_, and _Set_
+- Global functions such as print(_ _:separator:terminator:)_ and _abs(_ _ _:)_
+- Protocols, such as _Collection_ and _Equatable_, that describe common abstractions
+- Protocols, such as _CustomDebugStringConvertible_ and _CustomReflectable_, that you use to customize operations that are available to all types
+- Protocols, such as _OptionSet_, that you use to provide implementations that would otherwise require boilerplate code.
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+*print(_:separator:terminator:)*
+```swift
+print(1.0, 2.0, 3.0, 4.0, 5.0, separator: " ... ")
+// Prints "1.0 ... 2.0 ... 3.0 ... 4.0 ... 5.0"
+
+for n in 1...5 {
+    print(n, terminator: "")
+}
+// Prints "12345"
+```
+*String*
+```swift
+let greeting = "Welcome to Swift 4!"
+```
+
+*Arrays*
+```swift
+var shoppingList : Array <String> = ["Eggs", "Milk", "Bread"]
+```
+
+*Dictionaries*
+```swift
+var students : Dictionary <String, Double> = ["Susan" : 30.9, "Alex" : 60.6, "Kent" : 95.3]
+```
 
 ## About open source library
 
