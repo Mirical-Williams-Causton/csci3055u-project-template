@@ -27,6 +27,24 @@ for i in numbers {
   print(i)
 }
 ```
+*Switch Statements*
+```swift
+var grade = 89
+
+switch (grade) {
+  case 90 ... 100: print ("A+")
+  case 85 ... 89: print ("A")
+  case 80 ... 84: print ("A-")
+  case 77 ... 79: print ("B+")
+  case 73 ... 76: print ("B")
+  case 70 ... 72: print ("B-")
+  case 67 ... 69: print ("C+")
+  case 60 ... 66: print ("C")
+  case 50 ... 59: print ("D")
+  case 0 ... 49: print ("F")
+  default: print ("Invalid grade. Try again!")
+}
+```
 
 ## About the tools
 
@@ -50,10 +68,6 @@ for n in 1...5 {
     print(n, terminator: "")
 }
 // Prints "12345"
-```
-*Variable Using String Data Type*
-```swift
-let greeting = "Welcome to Swift 4!"
 ```
 
 *Arrays*
