@@ -57,3 +57,4 @@ community written in the language._
 - Swift can only be used for the development of macOS, iOS, watchOS, and tvOS applications.
 - The talent pool for Swift is limited.
 - There are very few IDEs (Xcode, AppCode, and Atom) that can take full advantage of the language.
+- Lacks support for earlier OSes.
