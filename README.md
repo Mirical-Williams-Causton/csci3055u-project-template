@@ -47,8 +47,16 @@ switch (grade) {
 ```
 
 ## About the tools
+The swift complier is responsible for translating Swift source code into efficient, excutable machine code. Swift compiler front-end supports a number of tools such as IDE integration with syntax colouring, code completion, and other conveniences.
 
-> _Describe the compiler or interpreter needed_.
+#### Major components of the Swift compiler
+- Parsing
+- Semantic Analysis
+- Clang Importer
+- SIL Generation
+- SIL Guaranteed Transformations
+- SIL Optimizations
+- LLVM IR Generation
 
 ## About the standard library
 The Swift standard library defines a base layer of functionality for writing Swift programs, including:
