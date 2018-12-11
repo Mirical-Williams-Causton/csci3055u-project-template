@@ -44,6 +44,9 @@ community written in the language._
 
 # Analysis of the language
 
+### Type system of the language
+Swift is considered to be a **static** type language. Before compilation, the compiler requires information about all classes and functions at the time of compilation.
+
 ### Strengths of the language
 - Interactive Playgrounds: Swift includes interactive playgrounds, which is an interactive environment that allows developers to test their code without having to create an entire application.
 - Memory is automatically managed, so semi-colons are not needed.
