@@ -81,9 +81,7 @@ var students : Dictionary <String, Double> = ["Susan" : 30.9, "Alex" : 60.6, "Ke
 ```
 
 ## About open source library
-
-> _Describe at least one contribution by the open source
-community written in the language._
+The Swift language, supporting libraries, debuggers, and package manager became open source with version 2.2 under the Apache 2.0 license with Runtime Library Exception in 2016. Swift.org was created to host the project. All source code is posted on GitHub so it is accessible to everyone. You can create pull requests and contribute code back to the project. You can also submit any bugs you may have found as well.
 
 # Analysis of the language
 
