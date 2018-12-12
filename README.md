@@ -87,7 +87,7 @@ The Swift language, supporting libraries, debuggers, and package manager became 
 
 # Analysis of the language
 
-### Closure support
+### Symbol resolution and its support for closure
 Closures in Swift are similar to blocks in C and Objective-C and to lambdas in other programming languages. There are three closure forms: global functions (have a name and cannot capture values), nested functions (have a name and can capture values from their enclosing function), and closure expressions (unnamed and can capture values from their surrounding context).
 
 ### Type system of the language
