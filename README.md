@@ -88,10 +88,16 @@ var shoppingList : Array <String> = ["Eggs", "Milk", "Bread"]
 var students : Dictionary <String, Double> = ["Susan" : 30.9, "Alex" : 60.6, "Kent" : 95.3]
 ```
 
+# About the UIKit specialized library
+The UIKit framework allows developers to construct and manage a graphical, event-driven user interface for iOS and tvOS applications.
+
 ## About open source library
 The Swift language, supporting libraries, debuggers, and package manager became open source with version 2.2 under the Apache 2.0 license with Runtime Library Exception in 2016. Swift.org was created to host the project. All source code is posted on GitHub so it is accessible to everyone. You can create pull requests and contribute code back to the project. You can also submit any bugs you may have found as well.
 
 # Analysis of the language
+
+### Closure support
+Closures in Swift are similar to blocks in C and Objective-C and to lambdas in other programming languages. There are three closure forms: global functions (have a name and cannot capture values), nested functions (have a name and can capture values from their enclosing function), and closure expressions (unnamed and can capture values from their surrounding context).
 
 ### Type system of the language
 Swift is considered to be a **static** type language. Before compilation, the compiler requires information about all classes and functions at the time of compilation.
