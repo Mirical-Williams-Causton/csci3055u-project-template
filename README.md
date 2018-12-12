@@ -88,19 +88,19 @@ The Swift language, supporting libraries, debuggers, and package manager became 
 # Analysis of the language
 
 ### The style of programming supported by the language
-The style of programming supported by the Swift programming language is functional programming.
+The style of programming supported by the Swift programming language is **procedural** programming. However, it contains a lot of features that enable the developer to apply functional principles during development.
 
 ### The ability to perform meta-programming
-
+macros is supported by the Swift programming language.
 
 ### Symbol resolution and its support for closure
 Closures in Swift are similar to blocks in C and Objective-C and to lambdas in other programming languages. There are three closure forms: global functions (have a name and cannot capture values), nested functions (have a name and can capture values from their enclosing function), and closure expressions (unnamed and can capture values from their surrounding context).
 
 ### Scoping rules supported by the language
-The lexical scoping structure is supported by the Swift programming language.
+The **lexical** scoping structure is supported by the Swift programming language.
 
 ### Functional programming constructs
-
+Functional programming constructs supported by the Swift programming language: filter, map, flatmap, and reduce.
 
 ### Type system of the language
 Swift is considered to be a **static** type language. Before compilation, the compiler requires information about all classes and functions at the time of compilation.
